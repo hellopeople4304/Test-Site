@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Bikes for LGBTQ+ in NYC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Free Bikes for LGBTQ+ in NYC</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#get-a-bike">Get a Bike</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a non-profit organization dedicated to providing free bikes to the LGBTQ+ community in New York City. Our mission is to promote health, sustainability, and mobility for all.</p>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>If you are a member of the LGBTQ+ community in NYC, you can apply for a free bike. Simply fill out the form below, and we will get in touch with you.</p>
+    </section>
+
+    <section id="get-a-bike">
+        <h2>Get a Bike</h2>
+        <form id="bike-application-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="story">Tell us your story (optional):</label>
+            <textarea id="story" name="story" rows="4"></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <section id="donate">
+        <h2>Donate</h2>
+        <p>Your support helps us provide free bikes to the LGBTQ+ community. Please consider making a donation today.</p>
+        <button id="donate-button">Donate Now</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us at <a href="mailto:info@freebikeslgbtqnyc.org">info@freebikeslgbtqnyc.org</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Free Bikes for LGBTQ+ in NYC. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
